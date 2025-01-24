@@ -9,7 +9,7 @@ dataTorrevieja = pd.read_csv("Data/Torrevieja-Limpio.csv", decimal=",", sep=";")
 
 st.set_page_config(page_title="Proyecto Contaminación", page_icon=":mask:", layout="wide")
 st.markdown("## Datos generales sobre la contaminación en las siguientes estaciones de la provincia de Alicante: Elche, Orihuela y Torrevieja.")
-st.sidebar.image("C:/Users/javie/Documents/ProyectoIABD25/ProyectoContaminaci-n/Proyecto/Assets/Contaminacion.png")
+st.sidebar.image("Assets/Contaminacion.png")
 
 if "mostrar_leyenda" not in st.session_state:
     st.session_state.mostrar_leyenda = False
