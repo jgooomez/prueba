@@ -2,9 +2,9 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-dataElche = pd.read_csv("../Data/Elche-Limpio.csv", decimal=",", sep=";")
-dataOrihuela = pd.read_csv("../Data/Orihuela-Limpio.csv", decimal=",", sep=";")
-dataTorrevieja = pd.read_csv("../Data/Torrevieja-Limpio.csv", decimal=",", sep=";")
+dataElche = pd.read_csv("Data/Elche-Limpio.csv", decimal=",", sep=";")
+dataOrihuela = pd.read_csv("Data/Orihuela-Limpio.csv", decimal=",", sep=";")
+dataTorrevieja = pd.read_csv("Data/Torrevieja-Limpio.csv", decimal=",", sep=";")
 
 
 st.set_page_config(page_title="Proyecto Contaminación", page_icon=":mask:", layout="wide")
